@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 81%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+  /* margin: 0px;
+  padding: 0px; */
+}
+.main-container {
+  margin: 20px;
+  display: flex;
+  padding: 20px;
+}
+
+.first {
+  background-color: hsl(263, 55%, 52%);
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 650px;
+  height: 250px;
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position:500px 5px;
+}
+
+.second {
+  background-color: hsl(217, 19%, 35%);
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 250px;
+}
+
+.third {
+  background-color: hsl(210, 46%, 95%);
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 220px;
+}
+.fourth {
+  background-color: hsl(219, 29%, 14%);
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 620px;
+  height: 220px;
+}
+.fifth {
+  background-color: hsl(210, 46%, 95%);
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 570px;
+}
+.ot {
+  display: flex;
+}
+.tf {
+  display: flex;
+}
+.of {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  color: hsl(0, 6%, 73%);
+}
+.tag1,
+.tag2,
+.tag3,
+.tag4,
+.tag5 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+img {
+  border-radius: 50%;
+  /* padding: 20px; */
+  margin-right: 30px;
+  height: 50px;
+  /* margin: 10px; */
+}
+.name1,
+.name2,
+.name3,
+.name4,
+.name5 {
+  display: flex;
+  flex-direction: column;
+}
+.name1 h3,
+p,
+.name2 h3,
+p,
+.name3 h3,
+p,
+.name4 h3,
+p,
+.name5 h3,
+p {
+  margin: 0px;
+  margin-top: 6px;
+}
+
+.first h2,
+h3,
+.second h2,
+h3,
+.fourth h2,
+h3 {
+  color: rgb(238, 229, 229);
+}
+
+.name3 h3, .name5 h3
+{
+    color: black;
+}
+.third h2, .fifth h2
+{
+    color: rgb(62, 59, 59);
+}
+.third p, .fifth p
+{
+    color: rgb(125, 116, 116);
+}
